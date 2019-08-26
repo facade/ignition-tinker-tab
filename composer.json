@@ -1,0 +1,73 @@
+{
+    "name": "facade/ignition-tinker-tab",
+    "description": "Use tinker on the Ignition error page\n",
+    "keywords": [
+        "facade",
+        "web-tinker",
+        "laravel",
+        "tinker",
+        "debug",
+        "development"
+    ],
+    "homepage": "https://github.com/facade/ignition-tinker-tab",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be",
+            "homepage": "https://spatie.be",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "facade/ignition": "^1.0",
+        "illuminate/support": "^5.8",
+        "laravel/tinker": "^1.0",
+        "spatie/laravel-web-tinker": "^1.4"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../ignition"
+        },
+        {
+            "type": "path",
+            "url": "../flare-client-php"
+        },
+        {
+            "type": "path",
+            "url": "../ignition-contracts"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Facade\\IgnitionTinkerTab\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Facade\\IgnitionTinkerTab\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Facade\\IgnitionTinkerTab\\TinkerTabServiceProvider"
+            ]
+        }
+    }
+}
