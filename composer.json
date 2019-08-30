@@ -26,20 +26,6 @@
         "laravel/tinker": "^1.0",
         "spatie/laravel-web-tinker": "^1.4"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../ignition"
-        },
-        {
-            "type": "path",
-            "url": "../flare-client-php"
-        },
-        {
-            "type": "path",
-            "url": "../ignition-contracts"
-        }
-    ],
     "require-dev": {
         "phpunit/phpunit": "^8.0"
     },
