@@ -3,6 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/facade/ignition-tinker-tab.svg?style=flat-square)](https://packagist.org/packages/facade/ignition-tinker-tab)
 [![Build Status](https://img.shields.io/travis/facade/ignition-tinker-tab/master.svg?style=flat-square)](https://travis-ci.org/facade/ignition-tinker-tab)
 [![StyleCI](https://github.styleci.io/repos/203643083/shield?branch=master)](https://github.styleci.io/repos/203643083)
+[![Quality Score](https://img.shields.io/scrutinizer/g/facade/ignition-tinker-tab.svg?style=flat-square)](https://scrutinizer-ci.com/g/facade/ignition-tinker-tab)
 [![Total Downloads](https://img.shields.io/packagist/dt/facade/ignition-tinker-tab.svg?style=flat-square)](https://packagist.org/packages/facade/ignition-tinker-tab)
 
 This package adds a tinker tab to the [Ignition error page](http://flareapp.io/docs/ignition-for-laravel/introduction).
