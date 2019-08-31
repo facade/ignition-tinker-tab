@@ -2,8 +2,8 @@
 
 namespace Facade\IgnitionTinkerTab\Tests;
 
-use Facade\IgnitionTinkerTab\TinkerTab;
 use PHPUnit\Framework\TestCase;
+use Facade\IgnitionTinkerTab\TinkerTab;
 
 class TinkerTabTest extends TestCase
 {
