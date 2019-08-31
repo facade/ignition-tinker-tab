@@ -1,7 +1,7 @@
 # Changelog
 
-All notable changes to `laravel-web-tinker` will be documented in this file
+All notable changes to `ignition-tinker-tab` will be documented in this file
 
-## 1.0.0 - 20XX-XX-XX
+## 1.0.0 - 2019-08-30
 
 - initial release
